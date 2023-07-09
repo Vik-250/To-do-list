@@ -1,0 +1,139 @@
+body {
+  min-height: 98vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+
+  background: -webkit-linear-gradient(
+    top,
+    rgb(103, 227, 203) 0%,
+    rgb(86, 165, 221) 60%,
+    rgb(73, 126, 228) 99%,
+    rgb(255, 255, 255) 100%
+  );
+
+  font-family: "Poppins", sans-serif;
+  overflow-y: scroll;
+}
+
+#mainbox {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#topic {
+  font-weight: 900;
+
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+#middle {
+  border: solid rgb(255, 255, 255);
+  padding-bottom: 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+#inputfield {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: larger;
+  border: solid rgb(194, 191, 191) 1px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+#addbutton {
+  color: white;
+  border: solid 1px;
+  font-weight: bolder;
+  background-color: #904ae8;
+  height: 35px;
+  border-left: 200px;
+  font-size: larger;
+  width: 35px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+ul {
+  list-style-type: disc;
+}
+ul {
+  padding: 10px;
+}
+
+/* Style the list items */
+ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 10px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  padding-bottom: 10px;
+  height: 20px;
+  min-width: 340px;
+  max-width: auto;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child() {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+li:hover .removebutton {
+  display: block !important;
+}
+
+.removebutton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  font-size: larger;
+  font-weight: bold;
+  float: right;
+  display: none !important;
+  width: 35px;
+  height: 38px;
+}
+
+#deleteall {
+  color: white;
+  background-color: #904ae8;
+  height: 30px;
+  width: 80px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+#deletebox {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding-left: 10px;
+}
